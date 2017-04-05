@@ -1,12 +1,12 @@
 # jmeter-docker-compose
 jmeter-docker-compose for alpine
-##For Finding IP's Of Slave machine
+<b>For Finding IP's Of Slave machine</b>
 Just Run the command bash.sh
-##For running Docker-compose
+<b>For running Docker-compose</b>
 docker-compose up -d
-##For scaling Slave machine
+<b>For scaling Slave machine</b>
 docker-compose scale slave=5
-##For scale down slave machines
+<b>For scale down slave machines</b>
 docker-compose scale slave=2
-##for Stopping
+<b>for Stopping</b>
 docker-compose down
