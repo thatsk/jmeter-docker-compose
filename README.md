@@ -2,7 +2,7 @@
 jmeter-docker-compose for alpine<br>
 <b>Just execute the command to enter into jmeter-client<b>
 docker exec -it master /bin/bash<br>
-<b>Then Run jmeter script<b>
+<b>Then Run jmeter script<b><br>
 jmeter -n -t jmeter-docker-compose.jmx -R172.19.0.16,172.19.0.15<br>
 <b>For Finding IP's Of Slave machine</b><br>
 Just Run the command bash.sh<br>
